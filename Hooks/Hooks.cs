@@ -9,7 +9,7 @@ namespace AutomationPractice.Hooks
     {
         private IWebDriver _driver;
 
-        [BeforeScenario("@tag1")]
+        [BeforeScenario()]
         public void BeforeScenarioWithTag()
         {
             _driver = DriverFactory.CreateDriver();
