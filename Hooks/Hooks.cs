@@ -14,6 +14,7 @@ namespace AutomationPractice.Hooks
         {
             _driver = DriverFactory.CreateDriver();
             ScenarioContext.Current["driver"] = _driver;
+
         }
 
 

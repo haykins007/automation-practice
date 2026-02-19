@@ -29,4 +29,8 @@
     <ReqnrollObsoleteCodeBehindFiles Remove="Features\Inventory.Feature.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\dotnet.yml" />
+  </ItemGroup>
+
 </Project>
